@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/2.Project/vector-cartoon-background-gym-with-big-window_1441-2904.webp);
+}
+
+#info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#info div{
+    padding: 3rem;
+    background: blue;
+    margin: 10px;
+    color: azure;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 10px 120px 10px 120px;
+}
