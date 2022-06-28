@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(196deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.container{
+    height: 75%;
+    width: 65%;
+    border-radius: 10px;
+    background-color: rgb(45, 43, 43);
+    /* background: linear-gradient(23deg, rgba(2,0,36,1) 0%, rgba(121,9,55,1) 35%, rgba(0,212,255,1) 100%); */
+}
+
+h2, p{
+    color: bisque;
+    text-align: center;
+    margin: 20px 0;
+}
+.chgContent{
+    background-color: #fff;
+    margin: 0 3px;
+    text-align: center;
+}
+.chgContent h2{
+    color: blue;
+}
+.chgContent input{
+    height: 40px;
+    width: 250px;
+    border: blue 1px solid;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.chgContent input{
+    height: 35px;
+    width: 200px;
+    border: gray 1px solid;
+    background-color: yellowgreen;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 10px 10px;
+    font-size: 20px;
+}
+.chgContent h4{
+    margin: 20px 0;
+}
+
+.alert{
+    text-align: center;
+    background-color: dodgerblue;
+    margin: 0 100px;
+}
+
+
+.alert input{
+    height: 35px;
+    width: 200px;
+    border: gray 1px solid;
+    background-color: yellowgreen;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 10px 10px;
+    font-size: 20px;
+}

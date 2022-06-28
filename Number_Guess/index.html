@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Number Guessing Game</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Number Guessing Game</h2>
+        <p>Try and guess random number between 1 and 100.</p>
+        <p>You have 10 attempts to guess the right number..</p>
+        <div class="chgContent">
+            <h2>Guess a Number?</h2>
+            <input  type="text" id="inpt" required autofocus> <br>
+            <input type="submit" id="submit">Submit</input>
+            <input type="submit" id="restart">Restart Game</input>
+            <h4>Previous guess: <span id="guesses"></span></h4>
+            <h4>Guess Remaining: <span id="lastResult">10</span></h4>
+        </div>
+
+        <div class="alert">
+            <p class="lowOrHi"></p>
+        </div>
+
+        <div class="alert success">
+            <div class="win">
+                <h2>You Guessed correctly!</h2>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
