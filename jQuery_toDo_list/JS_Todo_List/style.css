@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 550px;
+    width: 550px;
+    background: #333;
+    text-align: center;
+    border-radius: 10px;
+}
+h1, input, p{
+    margin: 10px 0;
+}
+input{
+    height: 40px;
+    font-size: large;
+    outline: 0;
+    color: #333;
+    padding: 3px 5px;
+}
+button{
+    margin: 0;
+    height: 40px;
+    width: 50px;
+    font-size: larger;
+}
+h1{
+    color: bisque;
+}
+.para-styling{
+    color: antiquewhite;
+    cursor: pointer;
+    font-size: 20px;
+}
